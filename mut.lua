@@ -18,13 +18,13 @@ local HttpService = game:GetService("HttpService")
 local LocalPlayer = Players.LocalPlayer
 
 local DEFAULT_GEAR_NAME = "DiamondCookie"
-local SAFETY_MAX_GEAR = 150
+local SAFETY_MAX_GEAR = 30
 local SLOT_BEFORE_INSERT = 0
 local SLOT_AFTER_INSERT  = 1
-local DELAY_EQUIP = 0.5
-local DELAY_USE   = 0.5
+local DELAY_EQUIP = 0.25
+local DELAY_USE   = 0.1
 local DELAY_STEP  = 1
-local DELAY_SLOT  = 0.8
+local DELAY_SLOT  = 0.25
 local DELAY_COLLECT = 2
 local DELAY_AFTER_COLLECT = 2
 local POLL_INTERVAL = 5
