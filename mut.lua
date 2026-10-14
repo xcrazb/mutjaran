@@ -24,10 +24,10 @@ local SLOT_AFTER_INSERT  = 1
 local DELAY_EQUIP = 0.1
 local DELAY_USE   = 0.2
 local DELAY_STEP  = 1
-local DELAY_SLOT  = 0.2
-local DELAY_COLLECT = 2
-local DELAY_AFTER_COLLECT = 2
-local POLL_INTERVAL = 5
+local DELAY_SLOT  = 0.1
+local DELAY_COLLECT = 1.5
+local DELAY_AFTER_COLLECT = 1.5
+local POLL_INTERVAL = 3
 
 local FALLBACK_MUTATIONS = {
     "Tiny", "Gold", "Diamond", "Rainbow", "Mythical",
